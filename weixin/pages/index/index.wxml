@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class='view-big'>
+  <view class='flex'>
+    <input bindinput='changeInputVal' class='input_Message' type='text' placeholder='请留言...' value='{{inputVal}}'></input>
+    <button size='mini' type='primary' bindtap='addMsg'>发送</button>
+  </view>
+  <text class='msg-info' wx:if='{{msgData.length==0}}'>暂无留言...</text>
+  <view class='border-big'>
+    <view class='border' wx:for='{{msgData}}' wx:key="item">
+      <text class='text1'>{{item}}</text>
+      <icon class='delete' type='cancel' data-index='{{index}}' bindtap='delMsg'></icon>
+    </view>
+  </view>
+</view>
+
+

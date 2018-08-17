@@ -1,0 +1,7 @@
+<!--news.wxml-->
+<text>
+  This is my first little program
+</text>
+<button bindtap='change'>{{msg}}</button>
+<button type='program' bindtap='clickC'>come</button>
+<button type='program' bindtap='clickE'>exit</button>

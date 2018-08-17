@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news"
+  ],
+  "window":{
+    "backgroundTextStyle":"#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "Message Board",
+    "navigationBarTextStyle":"#fff"
+  }
+}

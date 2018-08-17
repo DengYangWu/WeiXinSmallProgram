@@ -1,0 +1,28 @@
+/**index.wxss**/
+.view-big{
+  padding: 30px;
+}
+.flex{
+  display: flex;
+}
+.input_Message{
+  border: 1px solid silver;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.border-big{
+  margin: 20px 0 0 0;
+}
+.border{
+    overflow: hidden;
+    border-bottom: 1px solid silver;
+    height: 30px;
+    line-height: 30px;
+}
+.msg-info{
+  display: block;
+}
+.delete{
+  float: right;
+}
